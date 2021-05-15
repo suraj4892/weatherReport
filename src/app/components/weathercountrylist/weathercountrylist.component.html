@@ -1,0 +1,12 @@
+<div id="mainDiv">
+    <h2>Click on any city detail</h2>
+    <div *ngFor="let country of countryDetails">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title><a routerLink="/WeatherReportCity/{{country.CapitalName}}"> {{country.CapitalName}}</a></mat-card-title>
+                <mat-card-subtitle>{{country.CountryName}}</mat-card-subtitle>
+            </mat-card-header>
+        </mat-card>
+    </div>
+</div>

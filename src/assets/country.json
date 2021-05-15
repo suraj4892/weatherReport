@@ -1,0 +1,50 @@
+[
+    {
+      "CountryName": "Armenia",
+      "CapitalName": "Yerevan",
+      "CapitalLatitude": "40.166666666666664",
+      "CapitalLongitude": "44.500000",
+      "CountryCode": "AM",
+      "ContinentName": "Europe"
+    },
+    {
+      "CountryName": "Austria",
+      "CapitalName": "Vienna",
+      "CapitalLatitude": "48.2",
+      "CapitalLongitude": "16.366667",
+      "CountryCode": "AT",
+      "ContinentName": "Europe"
+    },
+    {
+      "CountryName": "Azerbaijan",
+      "CapitalName": "Baku",
+      "CapitalLatitude": "40.38333333333333",
+      "CapitalLongitude": "49.866667",
+      "CountryCode": "AZ",
+      "ContinentName": "Europe"
+    },
+    {
+      "CountryName": "Belarus",
+      "CapitalName": "Minsk",
+      "CapitalLatitude": "53.9",
+      "CapitalLongitude": "27.566667",
+      "CountryCode": "BY",
+      "ContinentName": "Europe"
+    },
+    {
+      "CountryName": "Belgium",
+      "CapitalName": "Brussels",
+      "CapitalLatitude": "50.833333333333336",
+      "CapitalLongitude": "4.333333",
+      "CountryCode": "BE",
+      "ContinentName": "Europe"
+    },
+    {
+      "CountryName": "Bosnia and Herzegovina",
+      "CapitalName": "Sarajevo",
+      "CapitalLatitude": "43.86666666666667",
+      "CapitalLongitude": "18.416667",
+      "CountryCode": "BA",
+      "ContinentName": "Europe"
+    }
+  ]
