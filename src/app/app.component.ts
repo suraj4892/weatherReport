@@ -12,8 +12,4 @@ export class AppComponent {
   constructor(public router:Router){}
 
   title = 'weatherreport';
-
-  public getWeatherDetail(click:number){
-    this.router.navigate(['/Weatherreportbycity'],{ queryParams: { id:click , name:'Angular' } })
-  }
 }

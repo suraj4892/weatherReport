@@ -21,7 +21,6 @@ export class WeathercountrylistComponent implements OnInit {
     let countryDeatils: CountryModel[] = await this.weatherService.getCountryList().toPromise();
     if (countryDeatils != null) {
       this.countryDetails = countryDeatils;
-      console.log('this.countryDetails',this.countryDetails)
     }
   }
 

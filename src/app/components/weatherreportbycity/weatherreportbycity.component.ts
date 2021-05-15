@@ -27,7 +27,6 @@ export class WeatherreportbycityComponent implements OnInit {
 
   async getWeatherDetail(){
     const data:WeatherDetailModel<any> = await this.weatherService.getWeatherDetails(this.city).toPromise()
-    console.log('data',data)
     if(data){
       const Filterdata:listModel<any>[] = data.list.filter(x=>x.dt_txt.substring(11) =='09:00:00')
       this.filterData = Filterdata
